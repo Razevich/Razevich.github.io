@@ -28,7 +28,7 @@ li {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 2em;
 }
 
@@ -59,13 +59,13 @@ h1 {
 .main-work {
   border-top: 1px solid grey;
   padding-top: 3em;
-  height:10em;
+  height:20em;
   width: 100%;
-  text-align: center;
+  overflow: scroll;
+  border-bottom: 1px solid grey;
 }
 
 footer {
   height: 3em;
   width: 100%;
-  border: 1px solid grey;
 }
