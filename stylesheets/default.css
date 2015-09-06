@@ -59,9 +59,13 @@ h1 {
 .main-work {
   border-top: 1px solid grey;
   padding-top: 3em;
-  height:15em;
+  height:10em;
   width: 100%;
   text-align: center;
 }
 
-
+footer {
+  height: 3em;
+  width: 100%;
+  border: 1px solid grey;
+}
