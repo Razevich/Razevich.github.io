@@ -21,5 +21,16 @@ h3 {
 
 .foot{
   display:inline-block;
-  margin-right:9em;
+}
+
+footer {
+  text-align: center;
+  height: 5em;
+  width: 100%;
+}
+
+.space {
+  margin-right: 5%;
+  margin-left: 5%;
+
 }
