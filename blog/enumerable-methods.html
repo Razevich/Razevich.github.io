@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Colin's Website</title>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  </head>
+  <body>
+    <div class="contain">
+      <div class="picture">
+         <a href="http://razevich.github.io">
+          <img src="http://razevich.github.io/pic.jpg">
+        </a>
+      </div>
+      <div class="logos">
+        <a href="https://www.facebook.com/colin.razevich">
+          <img src="http://razevich.github.io/Facebook.jpg">
+        </a>
+        <a href="https://twitter.com/RazevichC">
+          <img src="http://razevich.github.io/Twitter-icon.png">
+        </a>
+        <a href="https://github.com/Razevich">
+          <img src="http://razevich.github.io/github-256.png">
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="http://razevich.github.io/">Home</a>
+          </li>
+          <li>
+            <a href="http://razevich.github.io/blog/index.html">Blog</a>
+          </li>
+          <li>
+            <a href="mailto:Razevich.c@gmail.com">Contact</a>
+          </li>
+          <li>
+            <a href="3">Project</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-work">
+    <h1>Cycle through your problems</h1>
+      <h3>September-19th-2015</h3>
+        <p>Today, we will talk about Enumerable method. The enumerable method is a very important one in the programing language of Ruby. Enumerable is used on classes in ruby as a collection device. Every enumerable must be able to use the each method. The Each method runs through every item in your collection and acceses it for use. So lets say you have an array, or a place to store things. You have tickets to three different teams in your collection. Kings, Lakers, Clippers tickets. Now if you wanted to go through your collection and have it look at each ticket you would use the .each method. This would look like this in ruby
+        </p>
+      <p> Tickets = ["Kings", "Lakers", "Clippers"]
+      </p>
+      <p> Tickets.each do {|print| p print}
+      </p>
+      <p> This would print each ticket for you, but going through each point in your Tickets collection, and printing them all out for you.
+      </p>
+      <p> Now we need to look at one method called cycle. Cycle does what its name implys, it cycles through your code. It can take an argument which is an Integer that will tell it how many times to run your code. Or it can be left without an argument and it will run forever unless given a break command. The cycle code looks something like this
+      </p>
+      <p>
+days_of_week = %w{Monday Tuesday Wednesday Thursday Friday Saturday Sunday}
+=> ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+# This will print the days of the week over and over,
+# forever until you stop it with control-c.
+days_of_week.cycle {|day| puts day}
+=> Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+Monday
+Tuesday
+...
+
+# The cycle can be broken with the "break" statement
+days_of_week.cycle do |day|
+    puts day
+    break if day == "Friday"
+end
+=> Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+=> nil
+</p>
+<p> As you can see, it will go through your collection object and print it out as many times as you pass the argument to it.
+</p>
+      </div>
+      <footer>
+          <ul>
+            <li class="foot">
+              <a href="http://razevich.github.io/blog/arrays-hashes.html">Back</a>
+            </li>
+            <li class="foot space">Home</li>
+            <li class="foot">
+              <a href=>Forward</a>
+              </li>
+          </ul>
+      </footer>
+  </body>
+</html
