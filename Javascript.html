@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Colin's Website</title>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  </head>
+  <body>
+    <div class="contain">
+      <div class="picture">
+         <a href="http://razevich.github.io">
+          <img src="http://razevich.github.io/pic.jpg">
+        </a>
+      </div>
+      <div class="logos">
+        <a href="https://www.facebook.com/colin.razevich">
+          <img src="http://razevich.github.io/Facebook.jpg">
+        </a>
+        <a href="https://twitter.com/RazevichC">
+          <img src="http://razevich.github.io/Twitter-icon.png">
+        </a>
+        <a href="https://github.com/Razevich">
+          <img src="http://razevich.github.io/github-256.png">
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="http://razevich.github.io/">Home</a>
+          </li>
+          <li>
+            <a href="http://razevich.github.io/blog/index.html">Blog</a>
+          </li>
+          <li>
+            <a href="mailto:Razevich.c@gmail.com">Contact</a>
+          </li>
+          <li>
+            <a href="3">Project</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main-work">
+    <h1>Lets hash out these objects</h1>
+      <h3>September-30th-2015</h3>
+        <p>So, we are all thinking about it. Do I need to be the only one to bring it up? Okay fine! I guess I will be that guy.... So have you ever noticed a Javascript object looks a lot like a hash in Ruby? There! I SAID IT!!! lets let the dust settle for a second and figure out just where we stand. I know this may be hard for some of us to handle, we have spent our whole lives knowing but not saying this little fact. But lets all come together and talk about this right now.
+        </p>
+        <p>So why do they look the same? How can they be considered the same and how are they different? So we have spent a lot of time in ruby and nowe are onto JavaScript. It is a new and exciting(very scary) world out there DBC people! We know that in Ruby a hash is a |key, value| pair. When you declare a Hash you are going
+        <pre>
+
+         blah = {key => value}
+
+         or blah ={key => value, other_key => other_value}
+        </pre>
+        They key is used to access the value (Weird right?) so that if you went \n blah.key you would get the value (super weird!). Now JaveScript objects act the same way!
+        </p>
+        <p> An object in JavaScript is a way of declaring something that will hold many key value pairs. It is mainly used for OOP (but we will get into that another time) They are declared many ways, but the only way I like (and that means it is the only way you like damn it!) is the var blah = { }. Lets look at just what this means by creating an object car and putting things into it.
+        <pre>
+          var car = {
+          type: "BMW",
+          year: 2015,
+          horse_power: 320
+        }
+      </pre>
+        So what is going on there? We look and we have made a variable called car. This variable is then made an object by the {}. Inside these brackets we declare a key, and a value for that key. We can then call these keys to get new information.
+      <pre>
+        car.type => "BMW"
+      </pre>
+      And like a hash in Ruby, the value can be anything. It can be a string, a boolen, a number, MORE OBJECTS!, functions... you get where I am going with this. It can be a bunch of shit yo! This is just one small look into how they are the same. More to be added later DBC crew!.
+    </p>
+
+      </div>
+      <footer>
+          <ul>
+            <li class="foot">
+              <a href=>Back</a>
+            </li>
+            <li class="foot space">Home</li>
+            <li class="foot">
+              <a href=>Forward</a>
+              </li>
+          </ul>
+      </footer>
+  </body>
+</html
