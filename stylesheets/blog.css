@@ -45,7 +45,8 @@ footer {
 
 .main-work {
   float:right;
-  width: 79%;
+  width: 77.5%;
+  padding-left: 1.5em;
 }
 
 .side-bar {
