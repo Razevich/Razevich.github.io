@@ -19,18 +19,51 @@ h3 {
 
 }
 
-.foot{
-  display:inline-block;
-}
-
 footer {
   text-align: center;
   height: 5em;
   width: 100%;
 }
 
+.foot{
+  display:inline-block;
+}
+
 .space {
   margin-right: 5%;
   margin-left: 5%;
 
+}
+.wrapper{
+  padding-top: 3em;
+  height: 45em;
+  width: 100%;
+  overflow: auto;
+  border-bottom: 1px solid grey;
+  padding-bottom: 3em;
+}
+
+.main-work {
+  float:right;
+  width: 79%;
+}
+
+.side-bar {
+  border-right: 1px solid grey;
+  width: 20%;
+  float: left;
+  height: 100%;
+  overflow: auto;
+  text-align: left;
+}
+
+.side-bar a{
+  font-size: 1.2em;
+  display: inline-block;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.side-bar h1{
+  padding-bottom: 1em;
 }
